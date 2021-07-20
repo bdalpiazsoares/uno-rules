@@ -1,0 +1,31 @@
+@import '../../styles/base-colors.scss';
+
+.container {
+  height: auto;
+  background-color: $color-dark;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .imageStyle {
+    height: 30vh;
+    width: 20vh;
+    margin-bottom: 1em;
+  }
+
+  .nameStyle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-home-text;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+  }
+
+  .descriptionStyle {
+    font-size: 16px;
+    color: $color-home-text;
+    font-weight: 400;
+    text-align: justify;
+  }
+}

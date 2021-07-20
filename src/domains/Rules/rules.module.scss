@@ -1,0 +1,52 @@
+@import '../../styles/base-colors.scss';
+
+.container {
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+  background-color: $color-background-light;
+  color: $color-text-dark;
+
+  @media (max-width: 1150px) {
+    height: auto;
+  }
+  
+  .title {
+    margin-top: 16vh;
+    font-size: 3vh;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  .subtitle {
+    margin-top: 3vh;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3vh;
+  }
+  
+  .objective {
+    font-size: 2vh;
+    width: 90%;
+    line-height: 1.6;
+  }
+  
+  .descriptionRules {
+    font-size: 18px;
+    width: 90%;
+    line-height: 1.6;
+  }
+
+  .infoFontStyle {
+    font-size: 18px;
+    width: 90%;
+    line-height: 1.6;
+    margin-bottom: 3em;
+    
+    span {
+      font-weight: bold;
+    }
+  }
+}
